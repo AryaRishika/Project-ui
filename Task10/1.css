@@ -1,0 +1,34 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.nav {
+    position:fixed;
+}
+#nav-mobile li a {
+    color: darkgrey;
+}
+#body {
+
+}
+#nav-mobile li a:hover {
+    background-color: transparent;
+}
+
+.box1 {
+    border :1px solid black;
+    z-index:100;
+    display:none;
+    margin-top:10px;
+    position: fixed;
+    transform: translateY(30%);
+}
+.cover {
+    background:linear-gradient(orange,hotpink);
+    width:60%;
+    height:600px;
+    margin-top:-38px;
+
+}
+.picp {
+    background-color: lightskyblue;
+}
